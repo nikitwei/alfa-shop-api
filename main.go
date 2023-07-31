@@ -1,11 +1,10 @@
 package main
 
 import (
+	"github.com/gorilla/mux"
 	"github.com/nikitwei/alfa-shop-api/pkg/routes"
 	"log"
 	"net/http"
-
-	"github.com/gorilla/mux"
 )
 
 func main() {
